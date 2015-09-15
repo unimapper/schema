@@ -1,0 +1,25 @@
+{
+    "name": "bauer01/unimapper-schema",
+    "type": "library",
+    "description": "Schema tool for UniMapper",
+    "keywords": ["php", "migration", "data", "orm", "database", "schema"],
+    "license": ["MIT"],
+    "authors": [
+        {
+            "name": "Bronislav Sedlak",
+            "homepage": "http://github.com/bauer01"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "bauer01/unimapper": "dev-develop"
+    },
+    "require-dev": {
+        "nette/tester": "~1.5.0",
+        "squizlabs/php_codesniffer": "~2.0",
+        "mockery/mockery": "~0.9.0"
+    },
+    "autoload": {
+        "psr-4": {"UniMapper\\Schema\\": "src/"}
+    }
+}
